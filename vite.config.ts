@@ -10,5 +10,6 @@ export default defineConfig({
     // host: "0.0.0.0",
     host: "72.61.2.161",
     port: 5300,
+    allowedHosts: ["dashboard.shxshofficial.com", "www.dashboard.shxshofficial.com"],    
   },
 })
