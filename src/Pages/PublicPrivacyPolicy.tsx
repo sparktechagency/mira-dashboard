@@ -57,7 +57,7 @@ const PublicPrivacyPolicy = () => {
                         <Link to="/"><img src="/logo.png" className="w-18 mb-5 mx-auto" alt="" /></Link>
 
 
-                        <h2 className="text-2xl font-serif text-white mb-4 text-center">Terms & Condition</h2>
+                        <h2 className="text-2xl font-serif text-white mb-4 text-center">Privacy Policy</h2>
                     </div>
                     <div
                         style={{

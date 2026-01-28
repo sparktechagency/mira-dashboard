@@ -25,6 +25,7 @@ const UserList = () => {
   const {searchTerm} = getSearchParams();
   const useSearchTarms = useUpdateSearchParams()
 
+
   useEffect(()=>{
     refetch()
   },[searchTerm])
