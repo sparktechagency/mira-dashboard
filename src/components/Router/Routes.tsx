@@ -22,6 +22,7 @@ import About from "../dashboard/About";
 import FAQ from "../dashboard/FAQ/Faq";
 import Notifications from "../dashboard/Notifications";
 import PublicPrivacyPolicy from "../../Pages/PublicPrivacyPolicy";
+import Support from "../dashboard/Support";
 
 
 const router = createBrowserRouter([
@@ -95,6 +96,10 @@ const router = createBrowserRouter([
   {
     path: "privacy-policy",
     element: <PublicPrivacyPolicy />,
+  },
+  {
+    path: "support",
+    element: <Support />,
   },
 ]);
 
